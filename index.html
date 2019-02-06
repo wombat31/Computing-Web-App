@@ -13,44 +13,120 @@
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="index.css" />
+
+    
+
 </head>
 <body>
-<!--NAVBAR-->
-    
-    <nav class="navbar navbar-default">
-    <!-- link the branding and optify for mobile display-->
+  <div class="container">
+    <!--Navbar-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only"></span>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
                 </button>
-                <a class="navbar-brand" href="#">Brand</a>
+            <a class="navbar-brand" href="#">Archie & The Wombat</a>
             </div>
-
-            <!--Items to be toggled-->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Link1<span class="sr-only">(current)</span></a><li>
-                    <li><a href="#">Link</a></li>
-                    <!--This bit looks after the dropdown-->
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action1</a></li>
-                            <li><a href="#">Action2</a></li>
-                            <li><a href="#">Action3</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated Action1</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated Action2</a></li>
-                        </ul>
-                    </li>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="digitalDivide.html">The Digital Divide</a></li>
+                    <li><a href="#">Page 2</a></li> 
+                    <li><a href="#">Page 3</a></li> 
                 </ul>
             </div>
         </div>
     </nav>
+  </div>
+    <!--/.Navbar-->
+    <header class="header">
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Computing</h1> 
+                <p>Computing is an ever changing technology. To keep up with changes it is impractical to learn from a text book. This resource is intended to supplement any course of study with regards to the UK National Curriculum.</p> 
+            </div>
+            <p>This resource is not exhaustive.</p> 
+            <p>Please be patient whilst this resource is built, one topic at a time.</p>
+        </div>
+    </header>
+
+    
+
+
+
+
+
+    <!-- Page Features -->
+    <div class="container">
+      <div class="card-columns">
+
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <img class="card-img-top img-responsive" src="images/digitalDivide.jpg" alt="">
+            <div class="card-body">
+              <h4 class="card-title">The Digital Divide</h4>
+              <p class="card-text">The term 'Digital Divide' describes the technology divide (or gap) between countries, <strong>demographic</strong> groups and <strong>economic</strong> areas.</p>
+            </div>
+            <div class="card-footer">
+              <a href="digitalDivide.html" class="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <img class="card-img-top img-responsive" src="images/digitalDivide.jpg" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <img class="card-img-top img-responsive" src="images/digitalDivide.jpg" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <img class="card-img-top img-responsive" src="images/digitalDivide.jpg" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div  class="jumbotron text-center">
+            <p>&copy; 2019 - Archie & The Wombat </p>
+        </div>        
+      </div>
+    </footer>
+
 </body>
 </html>
