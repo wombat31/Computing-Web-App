@@ -10,7 +10,7 @@ body{
     margin-bottom:15px;
 }
 
-li:before {
+ul:before {
     /*Using a Bootstrap glyphicon as the bullet point*/
     content: "\e080";
     font-family: 'Glyphicons Halflings';
