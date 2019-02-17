@@ -6,6 +6,19 @@ body{
     padding-top:70px;
 }
 
+form{
+    
+    margin-bottom:5px;
+}
+
+form#signUp{
+    display:none;
+}
+
+input{
+    margin-bottom: 5px;
+}
+
 .card{
     margin-bottom:15px;
 }
@@ -19,4 +32,12 @@ ul:before {
     margin-top: 4px;
     margin-left: -17px;
     color: #CCCCCC;
+}
+
+#defaultText{
+    display:none;
+}
+
+#linkCards{
+    display:none;
 }

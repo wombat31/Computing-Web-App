@@ -2,8 +2,10 @@
 <html>
 <head>
     <title>Computing</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/jweAvatar.png" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script type="text/javascript" src="comp.js"></script>
+
+    <script type="text/javascript" src="js/comp.js"></script>
     
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -50,11 +52,28 @@
                 <h1>Computing</h1> 
                 <p>Computing is an ever changing technology. To keep up with changes it is impractical to learn from a text book. This resource is intended to supplement any course of study with regards to the UK National Curriculum.</p> 
             </div>
-            <div class="container">
+            <div class="form-group">
+              <form id="login">
+                <input type="email" class="form-control" name="email" placeholder="Email">
+                <input type="password" class ="form-control" name="pw" placeholder="Password">
+                <button type="submit" class="form-control btn btn-primary">Log In</button>
+                <p class="text-center"><a href="#" onclick="signUp()">SignUp!</a> if you do not have an account</p>
+              </form>
+              <form id="signUp">
+                <input type="email" class="form-control" name="email" placeholder="Email">
+                <input type="password" class ="form-control" name="pw" placeholder="Password">
+                <input type="password" class ="form-control" name="cpw" placeholder="Confirm Password">
+                <button type="submit" class="form-control btn btn-primary">Sign Up</button>
+                <p class="text-center"><a href="#" onclick="login()">Login!</a> if you have an account</p>
+              </form>
+
+            </div>
+            <div class="container" id="defaultText">
               <p>This resource is not exhaustive.</p> 
               <p>Please be patient whilst this resource is built, one topic at a time.</p>
             </div>
         </div>
+        
     </header>
 
     
@@ -64,7 +83,7 @@
 
 
     <!-- Page Features -->
-    <div class="container">
+    <div class="container" id="linkCards">
       
       <div class="card-columns">
 
